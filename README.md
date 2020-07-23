@@ -2,7 +2,7 @@
 Latex thesis template for the School of Earth and Environment, University of Leeds.
 
 
-This template is based upon a series of iterative updates from previous students. The previous version, which was formatted for the alternative thesis, can be found at https://github.com/matthew-gaddes/alternative_format_thesis
+This template is based upon a series of iterative updates from previous students. The previous version can be found at https://github.com/matthew-gaddes/alternative_format_thesis, which was formatted for the alternative thesis by allowing a bibliography at the end of each chapter. 
 
 I have modified this for the standard thesis format, added in the nomenclature list using the nomencl package, and tested the template for Overleaf. Formatting for the standard thesis simply required removing the refsection environment from each chapter, which can easily be reintroduced with
 
