@@ -4,7 +4,7 @@ Latex thesis template for the School of Earth and Environment, University of Lee
 
 This template is based upon a series of iterative updates from previous students. The previous version, which was formatted for the alternative thesis, can be found at https://github.com/matthew-gaddes/alternative_format_thesis
 
-I have modified this for the standard thesis format, added in the nomenclature list using the nomencl package, and tested the template for Overleaf. Formatting for the standard thesis simply required removing the refsection environment from each chapter, which can easily be reintroduced
+I have modified this for the standard thesis format, added in the nomenclature list using the nomencl package, and tested the template for Overleaf. Formatting for the standard thesis simply required removing the refsection environment from each chapter, which can easily be reintroduced with
 
 ```latex
 \begin{refsection}
