@@ -20,3 +20,5 @@ The main file is `0_thesis.tex`, containing the preamble, title page, acknowledg
 
 
 To compile the document, either simply use your preffered application, Overleaf, or you can use the included Makefile to compile from the command line. Running `make` will use pdflatex to create the pdf and biber to produce the references. Assuming you are using the nomencl package (see template) for the nomenclature list, then the Makefile uses makeindex to include this. You can also run `make clean` remove all the auxiliary files. I'll admit I was a little lazy and hardcoded in the auxiliary files extensions, so you may get an warning if it tries to move files with an extension that doesn't currently exist but this won't cause it to fail. `make` automatically calls `make tidy` which puts all the auxiliary files into a folder.
+
+If you find any areas to improve feel free to let me know, or if you're feeling fancy create a fork and put in a merge request
