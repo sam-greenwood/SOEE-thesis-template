@@ -14,11 +14,11 @@ build: ${main_file}.tex
 	${latex} ${main_file}.tex
 
 tidy:
-	mkdir -p auxillary_files
-	for f in ${aux_files}; do mv *$${f} auxillary_files/; done
+	mkdir -p auxiliary_files
+	for f in ${aux_files}; do mv *$${f} auxiliary_files/; done
 
 remove:
-	rm -rf ./auxillary_files
+	rm -rf ./auxiliary_files
 
 clean: tidy remove
 
