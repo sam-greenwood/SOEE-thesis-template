@@ -1,0 +1,35 @@
+\chapter[Introduction]{Introduction}  %[Chapter name as it will appear in the ToC]{chapter name as it will apear as the title to the chapter} Probably always want them to be the same 
+\label{ch:introduction}
+
+\section{Overview}
+
+This thesis is about someting.
+
+
+\section{Equations}
+
+An example of an equation (solve it for bonus points)
+
+\begin{equation}
+     x = 35A + \frac{3B}{100},
+\end{equation} where typically $A$ and $B$ are taken as 12 and 23 respectively.
+
+We can align equations 
+\begin{align}
+    \frac{\partial y}{\partial x} &= 3x^2 \\
+    y(0) &= 0.\\
+\end{align}
+
+Sometimes we have such a long equation that we need to split is across 2 lines. We can choose to withhold numbering both lines since it's all one equation
+
+\begin{align}
+    \overbrace{\int k\left(\frac{\nabla T}{T}\right)^2\dd V}^{\Ek}
+    &+ \overbrace{\int\frac{\massf^2}{\alphad T}\dd V}^{\Ea}
+    + \overbrace{\int\frac{\Phi}{T} \dd V}^{\Ej} = \nonumber\\
+    & \overbrace{-\int\left(\frac{1}{\Tc}-\frac{1}{T}\right)\rho C_p\frac{\DD T}{\DD t}\dd V}^{\Es}
+    + \overbrace{\left(\frac{1}{\Tc}-\frac{1}{\Ti}\right)\Ql}^{\El}
+    + \overbrace{\frac{\Qg}{\Tc}}^{\Eg}.
+\label{eq:entropy budget final}
+\end{align}This was my most complicated equation and I include it here to inflate my ego.
+
+In equation \ref{eq:entropy budget final} I have made use of using symbols that I frequently use defined in the symbols.tex file. dd, DD, Ek, Ej, Es, El, Eg, massf, Tc, and Ti are all defined in symbols.tex. If it's not worth it to you to have any predifined symbols then you can simply delete symbols.tex and remove the `include symbols.tex' from the preamble.
